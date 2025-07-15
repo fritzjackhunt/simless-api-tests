@@ -1,0 +1,12 @@
+Code	Message
+000001	Server error
+000101	Request header (mandatory) is null
+000102	Wrong request header format
+000103	This https request method (get/post ) is not supported
+000104	Request in invalid JSON format
+000105	Request parameters (mandatory) are not contained
+000106	Request parameter (mandatory) is null
+000107	The length of the request parameter does not meet the requirement.
+101001	The timestamp of the request has expired.
+101002	This IP is in the blocklist.
+101003	Request signature mismatch.
