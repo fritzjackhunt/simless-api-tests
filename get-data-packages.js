@@ -32,7 +32,7 @@ var req = https.request(options, function (res) {
 const postData = JSON.stringify({
   locationCode: "",
   type: "",
-  slug: "",
+  slug: "NA-3_1_7",
   packageCode: "",
   iccid: ""
 });
