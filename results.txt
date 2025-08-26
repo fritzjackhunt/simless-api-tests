@@ -1,2 +1,13 @@
+/**** Order-profiles.js ****/
+
 Response from server: {"errorCode":null,"errorMsg":null,"success":true,"obj":{"orderNo":"B25082117350005","transactionId":"txn_12345"}}
 
+
+/***** query.js  *******/
+
+{"success":true,"errorCode":"0","errorMsg":null,"obj":{"esimList":[{"esimTranNo":"25082300250004","orderNo":"B25082300250004","transactionId":"txn_1755908709206","imsi":"232104070296370","iccid":"8943108170002963705","smsStatus":2,"msisdn":"4367844117370","ac":"LPA:1$rsp-eu.simlessly.com$B45CE581661D4C7CB9A406182B197E1E","qrCodeUrl":"https://p.qrsim.net/bc9302265cb3493586a0bd9d2f097c47.png","shortUrl":"https://p.qrsim.net/bc9302265cb3493586a0bd9d2f097c47","smdpStatus":"RELEASED","eid":"","activeType":2,"dataType":1,"activateTime":null,"expiredTime":"2026-02-19T00:25:11+0000","installationTime":null,"totalVolume":1073741824,"totalDuration":7,"durationUnit":"DAY","orderUsage":0,"esimStatus":"GOT_RESOURCE","pin":"9959","puk":"63847589","apn":"drei.at","ipExport":"UK/NO","supportTopUpType":2,"fupPolicy":"","packageList":[{"packageName":"Netherlands 1GB 7Days","packageCode":"CKH233","slug":"NL_1_7","duration":7,"volume":1073741824,"locationCode":"NL","createTime":"2025-08-23T00:25:11+0000"}]}],"pager":{"pageSize":20,"pageNum":1,"total":1}}}
+
+
+/***** Balance Query.js  *******/
+
+{"success":true,"errorCode":"0","errorMsg":null,"obj":{"balance":288900}}

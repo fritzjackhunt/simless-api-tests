@@ -4,10 +4,10 @@ var fs = require('fs');
 var options = {
   'method': 'POST',
   'hostname': 'api.esimaccess.com',
-  'path': '/api/v1/open/balance/query',
+  'path': '/api/v1/open/esim/query',
   'headers': {
     'RT-AccessCode' : '810aefbd00554ab681baa2ef7bd396b4',
-    'Content-Type' : 'application/json'
+    'Content-Type': 'application/json',
   },
   'maxRedirects': 20
 };
@@ -29,6 +29,8 @@ var req = https.request(options, function (res) {
   });
 });
 
-var postData =  "{\n  \"esimTranNoList\": [\"25082302160015\"]\n}";
+var postData =  "{\n    \"orderNo\":\"B25082302160013\",\n    \"esimTranNo\":\"\",\n    \"iccid\":\"\",\n    \"pager\":{\n        \"pageNum\":1,\n        \"pageSize\":20\n    }\n}\n\n";
+
+req.write(postData);
 
 req.end();
