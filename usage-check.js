@@ -29,7 +29,7 @@ var req = https.request(options, function (res) {
   });
 });
 
-var postData =  "{\n  \"esimTranNoList\": [\"25031120490003\"]\n}";
+var postData =  "{\n  \"esimTranNoList\": [\"25100622320010\"]\n}";
 
 req.write(postData);
 

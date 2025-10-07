@@ -29,6 +29,6 @@ var req = https.request(options, function (res) {
   });
 });
 
-var postData =  "{\n  \"esimTranNoList\": [\"25082302160015\"]\n}";
+var postData =  "{\n  \"esimTranNoList\": [\"25100622320010\"]\n}";
 
 req.end();
