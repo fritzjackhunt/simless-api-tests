@@ -1,0 +1,2 @@
+curl -L -X POST https://simless.xyz/api/esim-packages/ -H "Content-Type: application/json" -d '{}'
+curl -L -X POST https://simless.xyz/api/esim-order/ -H "Content-Type: application/json" -d '{"some":"data"}'
