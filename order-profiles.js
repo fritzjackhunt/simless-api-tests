@@ -45,4 +45,4 @@ function orderEsimProfile(transactionId, packageCode, price, count = 1) {
 }
 
 // Example usage:
-orderEsimProfile('txn_12345', 'CKH009', 23000, 1);
+orderEsimProfile('txn_12345', 'CKH256', 23000, 1);
